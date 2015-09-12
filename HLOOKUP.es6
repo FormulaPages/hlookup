@@ -1,7 +1,7 @@
 
 import ISBLANK from 'formula-isblank';
 
-export default function HLOOKUP() {
+export default function HLOOKUP(needle, table, index, exactmatch) {
     if (typeof needle === "undefined" || fn.ISBLANK(needle)) {
         return null;
     }
