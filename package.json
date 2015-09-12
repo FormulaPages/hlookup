@@ -1,6 +1,6 @@
 {
   "name": "formula-hlookup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HLOOKUP function",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/hlookup/issues"
   },
-  "homepage": "https://github.com/FormulaPages/hlookup#readme"
+  "homepage": "https://github.com/FormulaPages/hlookup#readme",
+  "dependencies": {
+    "formula-isblank": "^1.0.0"
+  }
 }
