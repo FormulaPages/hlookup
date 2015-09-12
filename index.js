@@ -20,7 +20,7 @@
     var _ISBLANK = _interopRequireDefault(_formulaIsblank);
 
     function HLOOKUP(needle, table, index, exactmatch) {
-        if (typeof needle === "undefined" || fn.ISBLANK(needle)) {
+        if (typeof needle === "undefined" || (0, _ISBLANK["default"])(needle)) {
             return null;
         }
 
